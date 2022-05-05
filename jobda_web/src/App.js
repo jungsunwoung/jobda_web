@@ -8,6 +8,7 @@ import first from "./icons/first.png";
 import second from "./icons/second.png";
 import third from "./icons/third.png";
 import jeong from "./icons/jeongseung.png";
+import report from "./icons/report_detail.png";
 function App() {
   useEffect(() => {
     console.log("hi");
@@ -29,7 +30,6 @@ function App() {
             zIndex: 1,
             width: "100vw",
             padding: "1vw",
-            marginTop: "1vh",
             height: "5vh",
             backgroundColor: "#ffffff",
             boxShadow: "0 3px 5px 0 rgba(38, 37, 37, 0.12)",
@@ -86,6 +86,9 @@ function App() {
           }}
         ></div>
       </div>
+      <div style={{}}>
+        <img style={{ width: "100vw" }} src={report}></img>
+      </div>
       <div
         style={{
           marginLeft: "5vw",
@@ -126,7 +129,7 @@ function App() {
           fontWeight: "lighter",
         }}
       >
-        -투자 유치 업무
+        - 투자 유치 업무
       </div>
       <div
         style={{
@@ -205,7 +208,7 @@ function App() {
       <div
         style={{
           width: "100vw",
-          height: "7vh",
+          height: "8vh",
           display: "flex",
           flexDirection: "row",
           justifyContent: "space-between",
@@ -218,12 +221,12 @@ function App() {
         }}
       >
         <img
-          style={{ width: "15vw", height: "7vh", marginLeft: "10vw" }}
+          style={{ width: "14vw", height: "7vh", marginLeft: "10vw" }}
           src={first}
         ></img>
-        <img style={{ width: "15vw", height: "7vh" }} src={second}></img>
+        <img style={{ width: "14vw", height: "7vh" }} src={second}></img>
         <img
-          style={{ width: "15vw", height: "7vh", marginRight: "10vw" }}
+          style={{ width: "14vw", height: "7vh", marginRight: "10vw" }}
           src={third}
         ></img>
       </div>
