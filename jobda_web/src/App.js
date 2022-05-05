@@ -101,10 +101,11 @@ function App() {
           marginLeft: "5vw",
           marginTop: "3vh",
           fontSize: 15,
+          fontWeight: "lighter",
           whiteSpace: "pre-wrap",
         }}
       >
-        -정승 네트워크는 소개팅 시장에 패러다임을 불러온 좋소개팅\n
+        - 정승 네트워크는 소개팅 시장에 패러다임을 불러온 좋소개팅
         어플리케이션을 비롯하여 여러가지 사업을 준비하고 있습니다
       </div>
       <div
@@ -122,8 +123,41 @@ function App() {
           marginLeft: "5vw",
           marginTop: "3vh",
           fontSize: 15,
+          fontWeight: "lighter",
         }}
-      ></div>
+      >
+        -투자 유치 업무
+      </div>
+      <div
+        style={{
+          marginLeft: "5vw",
+          marginTop: "1vh",
+          fontSize: 15,
+          fontWeight: "lighter",
+        }}
+      >
+        - 아침에 와서 청소하기
+      </div>
+      <div
+        style={{
+          marginLeft: "5vw",
+          marginTop: "1vh",
+          fontSize: 15,
+          fontWeight: "lighter",
+        }}
+      >
+        - 탕비실 채워넣기
+      </div>
+      <div
+        style={{
+          marginLeft: "5vw",
+          marginTop: "1vh",
+          fontSize: 15,
+          fontWeight: "lighter",
+        }}
+      >
+        - 사장님이 힘들 때 같이 술마시기
+      </div>
       <div
         style={{
           marginLeft: "5vw",
